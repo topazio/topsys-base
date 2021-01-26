@@ -21,8 +21,6 @@ public final class TSStringUtil {
 
 	public static final String EMPTY = "";
 
-	private static final int PAD_LIMIT = 8192;
-
 	private static final String[] PADDING = new String[Character.MAX_VALUE];
 	
 	private TSStringUtil() {
